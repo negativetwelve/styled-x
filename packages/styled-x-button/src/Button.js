@@ -1,31 +1,21 @@
 // Libraries
 import React from 'react';
 import PropTypes from 'prop-types';
-import {Touchable} from 'react-x';
+import Styled from 'styled-x-primitives';
 
-/**
- * Cross-platform Button component for React DOM and React Native.
- */
-class Button extends React.Component {
+// --------------------------------------------------
+// Components
+// --------------------------------------------------
+const Button = Styled.Touchable.extend`
+`;
 
-  // --------------------------------------------------
-  // Props
-  // --------------------------------------------------
-  static propTypes = {
-    // TODO
-  };
+// --------------------------------------------------
+// Props
+// --------------------------------------------------
+Button.propTypes = {
+};
 
-  static defaultProps = {
-    // TODO
-  };
-
-  // --------------------------------------------------
-  // Render
-  // --------------------------------------------------
-  render() {
-    return <Touchable {...this.props} />;
-  }
-
-}
+Button.defaultProps = {
+};
 
 export default Button;

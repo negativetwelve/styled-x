@@ -1235,8 +1235,8 @@ boom@5.x.x:
     hoek "4.x.x"
 
 bowser@^1.0.0, bowser@^1.7.3:
-  version "1.9.2"
-  resolved "https://registry.yarnpkg.com/bowser/-/bowser-1.9.2.tgz#d66fc868ca5f4ba895bee1363c343fe7b37d3394"
+  version "1.9.3"
+  resolved "https://registry.yarnpkg.com/bowser/-/bowser-1.9.3.tgz#6643ae4d783f31683f6d23156976b74183862162"
 
 bplist-creator@0.0.7:
   version "0.0.7"
@@ -3451,7 +3451,13 @@ interpret@^1.0.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/interpret/-/interpret-1.1.0.tgz#7ed1b1410c6a0e0f78cf95d3b8440c63f78b8614"
 
-invariant@^2.2.0, invariant@^2.2.1, invariant@^2.2.2:
+invariant@^2.2.0, invariant@^2.2.1:
+  version "2.2.4"
+  resolved "https://registry.yarnpkg.com/invariant/-/invariant-2.2.4.tgz#610f3c92c9359ce1db616e538008d23ff35158e6"
+  dependencies:
+    loose-envify "^1.0.0"
+
+invariant@^2.2.2:
   version "2.2.3"
   resolved "https://registry.yarnpkg.com/invariant/-/invariant-2.2.3.tgz#1a827dfde7dcbd7c323f0ca826be8fa7c5e9d688"
   dependencies:
@@ -5611,8 +5617,8 @@ rc@^1.0.1, rc@^1.1.6, rc@^1.1.7:
     strip-json-comments "~2.0.1"
 
 react-art@^16.2.0:
-  version "16.2.0"
-  resolved "https://registry.yarnpkg.com/react-art/-/react-art-16.2.0.tgz#3b6914a6c9da64f83910896fa8cdae6ddf2aa589"
+  version "16.3.0"
+  resolved "https://registry.yarnpkg.com/react-art/-/react-art-16.3.0.tgz#749988e58e1d990769d0c9b294bae62d846442bd"
   dependencies:
     art "^0.10.1"
     create-react-class "^15.6.2"
@@ -5793,15 +5799,15 @@ react-transform-hmr@^1.0.4:
     global "^4.3.0"
     react-proxy "^1.1.7"
 
-react-x-clipboard@^1.5.0:
-  version "1.5.0"
-  resolved "https://registry.yarnpkg.com/react-x-clipboard/-/react-x-clipboard-1.5.0.tgz#f68d455055060984635c9afaade2944f002280c9"
+react-x-clipboard@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/react-x-clipboard/-/react-x-clipboard-2.0.0.tgz#cf6a4d6abe9bac0447eea5b6ec9c06cdbfd396dc"
   dependencies:
     copy-to-clipboard "^3.0.8"
 
-react-x-keychain@^1.5.0:
-  version "1.5.0"
-  resolved "https://registry.yarnpkg.com/react-x-keychain/-/react-x-keychain-1.5.0.tgz#f73412ac520b2d75591e1c653601fd08184f23d0"
+react-x-keychain@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/react-x-keychain/-/react-x-keychain-2.0.0.tgz#4ad79393b4d346d36fdc89f95be6337b28dbce90"
   dependencies:
     cookies-js "^1.2.3"
     invariant "^2.2.2"
@@ -5809,49 +5815,42 @@ react-x-keychain@^1.5.0:
     lodash.pick "^4.4.0"
     react-native-keychain "2.0.0-rc"
 
-react-x-primitives@^1.5.0:
-  version "1.5.0"
-  resolved "https://registry.yarnpkg.com/react-x-primitives/-/react-x-primitives-1.5.0.tgz#7eda9a51af4609f95688aab01bbc103a3224d682"
+react-x-primitives@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/react-x-primitives/-/react-x-primitives-2.0.0.tgz#a3f731a4665861174f2a288fa0f0e4af06bd94ef"
   dependencies:
     react-primitives "0.5.0"
 
-react-x-render@^1.5.0:
-  version "1.5.0"
-  resolved "https://registry.yarnpkg.com/react-x-render/-/react-x-render-1.5.0.tgz#9bfd6514e7e353b8e21370a520bf10e3bb74d66a"
+react-x-render@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/react-x-render/-/react-x-render-2.0.0.tgz#7b3db9c831fb0149f240b43ea99ff1055eec9897"
   dependencies:
     prop-types "^15.5.10"
 
-react-x-styled@^1.5.0:
-  version "1.5.0"
-  resolved "https://registry.yarnpkg.com/react-x-styled/-/react-x-styled-1.5.0.tgz#f4727972e8dafe324b8ae493800cb9327333c35a"
-  dependencies:
-    styled-components "3.1.6"
-
-react-x-svg@^1.5.0:
-  version "1.5.0"
-  resolved "https://registry.yarnpkg.com/react-x-svg/-/react-x-svg-1.5.0.tgz#c4e83970434dbc6da4587032cfdd9374ce5d443f"
+react-x-svg@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/react-x-svg/-/react-x-svg-2.0.0.tgz#9828fcd278630d641b5eabcd6e513a85d440f3f5"
   dependencies:
     react-native-svg "6.2.2"
     react-primitives-svg "0.0.3"
 
-react-x-switch@^1.5.0:
-  version "1.5.0"
-  resolved "https://registry.yarnpkg.com/react-x-switch/-/react-x-switch-1.5.0.tgz#50bff852b6040071f63b774b59ecf7feb68df43c"
+react-x-switch@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/react-x-switch/-/react-x-switch-2.0.0.tgz#e34cc45d6035f8e97a9c07a01047785092b51b47"
   dependencies:
     prop-types "^15.5.10"
     react-ios-switch "^0.1.19"
 
-react-x@1.5.0:
-  version "1.5.0"
-  resolved "https://registry.yarnpkg.com/react-x/-/react-x-1.5.0.tgz#cd5cdc3a86cccc881e4ead5ffcee536f8b0a9109"
+react-x@2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/react-x/-/react-x-2.0.0.tgz#8ca7b8dbd218fc646efa79d30d185cf6860b2ebd"
   dependencies:
-    react-x-clipboard "^1.5.0"
-    react-x-keychain "^1.5.0"
-    react-x-primitives "^1.5.0"
-    react-x-render "^1.5.0"
-    react-x-styled "^1.5.0"
-    react-x-svg "^1.5.0"
-    react-x-switch "^1.5.0"
+    react-x-clipboard "^2.0.0"
+    react-x-keychain "^2.0.0"
+    react-x-primitives "^2.0.0"
+    react-x-render "^2.0.0"
+    react-x-svg "^2.0.0"
+    react-x-switch "^2.0.0"
 
 react@16.2.0:
   version "16.2.0"
@@ -6640,20 +6639,6 @@ strong-log-transformer@^1.0.6:
     moment "^2.6.0"
     through "^2.3.4"
 
-styled-components@3.1.6:
-  version "3.1.6"
-  resolved "https://registry.yarnpkg.com/styled-components/-/styled-components-3.1.6.tgz#9c443146fa82c6659a9f64dd493bf2202480342e"
-  dependencies:
-    buffer "^5.0.3"
-    css-to-react-native "^2.0.3"
-    fbjs "^0.8.9"
-    hoist-non-react-statics "^1.2.0"
-    is-plain-object "^2.0.1"
-    prop-types "^15.5.4"
-    stylis "^3.4.0"
-    stylis-rule-sheet "^0.0.7"
-    supports-color "^3.2.3"
-
 styled-components@3.2.1:
   version "3.2.1"
   resolved "https://registry.yarnpkg.com/styled-components/-/styled-components-3.2.1.tgz#4f780c588829eb06624b686f9b793a10d04db139"
@@ -6669,17 +6654,9 @@ styled-components@3.2.1:
     stylis-rule-sheet "^0.0.8"
     supports-color "^3.2.3"
 
-stylis-rule-sheet@^0.0.7:
-  version "0.0.7"
-  resolved "https://registry.yarnpkg.com/stylis-rule-sheet/-/stylis-rule-sheet-0.0.7.tgz#5c51dc879141a61821c2094ba91d2cbcf2469c6c"
-
 stylis-rule-sheet@^0.0.8:
   version "0.0.8"
   resolved "https://registry.yarnpkg.com/stylis-rule-sheet/-/stylis-rule-sheet-0.0.8.tgz#b0d0a126c945b1f3047447a3aae0647013e8d166"
-
-stylis@^3.4.0:
-  version "3.4.10"
-  resolved "https://registry.yarnpkg.com/stylis/-/stylis-3.4.10.tgz#a135cab4b9ff208e327fbb5a6fde3fa991c638ee"
 
 stylis@^3.4.10:
   version "3.5.0"

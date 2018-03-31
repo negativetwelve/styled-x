@@ -1,8 +1,11 @@
 // Libraries
 import React from 'react';
 import PropTypes from 'prop-types';
-import {Styled} from 'react-x';
+import Styled from 'styled-x-primitives';
 
+// --------------------------------------------------
+// Components
+// --------------------------------------------------
 const format = (align) => {
   switch (align) {
     case 'top': return 'flex-start';
@@ -12,11 +15,14 @@ const format = (align) => {
   }
 };
 
-const Row = Styled.View`
+const Row = Styled.View.extend`
   flex-direction: row;
   align-items: ${props => format(props.align)};
 `;
 
+// --------------------------------------------------
+// Props
+// --------------------------------------------------
 Row.propTypes = {
   align: PropTypes.oneOf(['top', 'center', 'bottom', 'stretch']),
 };
