@@ -1,6 +1,6 @@
 {
   "name": "styled-x-primitives",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Cross-platform Image, Text, and View components for the styled-x system.",
   "license": "MIT",
   "author": "Mark Miyashita <negativetwelve@gmail.com>",
