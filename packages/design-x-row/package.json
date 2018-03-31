@@ -1,0 +1,33 @@
+{
+  "name": "design-x-row",
+  "version": "0.0.6",
+  "description": "Cross-platform Row component for the Design X system.",
+  "license": "MIT",
+  "author": "Mark Miyashita <negativetwelve@gmail.com>",
+  "homepage": "https://github.com/negativetwelve/design-x",
+  "repository": "https://github.com/negativetwelve/design-x/tree/master/packages/design-x",
+  "keywords": [
+    "component",
+    "cross-platform",
+    "design-x",
+    "react",
+    "react-native",
+    "react-x",
+    "react-x-component",
+    "row"
+  ],
+  "main": "build/Row",
+  "files": [
+    "build"
+  ],
+  "dependencies": {
+    "prop-types": "15.6.1",
+    "react": "16.2.0",
+    "react-x": "1.5.0"
+  },
+  "scripts": {
+    "build": "babel src --out-dir build --ignore \"**/__tests__/**\"",
+    "clean": "rimraf build",
+    "prepublishOnly": "yarn run clean && yarn run build"
+  }
+}
