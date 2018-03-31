@@ -4015,18 +4015,18 @@ jest-plugins@^2.7.0:
   version "2.7.0"
   resolved "https://registry.yarnpkg.com/jest-plugins/-/jest-plugins-2.7.0.tgz#83563580a98850b858984d8a635e1845eea7a09a"
 
-jest-preset-react-x-dom@^1.6.0:
-  version "1.6.0"
-  resolved "https://registry.yarnpkg.com/jest-preset-react-x-dom/-/jest-preset-react-x-dom-1.6.0.tgz#63fc85109d6ccb0d0eb41b8bc6ef80e526ececed"
+jest-preset-react-x-dom@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/jest-preset-react-x-dom/-/jest-preset-react-x-dom-2.1.0.tgz#5424eadba5b01d6db9cb7fec933fedbef46baf04"
   dependencies:
     identity-obj-proxy "^3.0.0"
     jest-plugins "^2.7.0"
     jest-plugins-react "^2.7.0"
     jest-plugins-recommended "^2.7.0"
 
-jest-preset-react-x-native@^1.6.0:
-  version "1.6.0"
-  resolved "https://registry.yarnpkg.com/jest-preset-react-x-native/-/jest-preset-react-x-native-1.6.0.tgz#ad909c8b85b98b97729bb05266b017424e1216f1"
+jest-preset-react-x-native@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/jest-preset-react-x-native/-/jest-preset-react-x-native-2.1.0.tgz#e424d9b992a6437e1b8d0b4d11e2e6ede30402cb"
   dependencies:
     jest-plugins "^2.7.0"
     jest-plugins-react "^2.7.0"
