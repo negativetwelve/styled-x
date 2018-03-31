@@ -1,6 +1,6 @@
 {
   "name": "design-x-button",
-  "version": "0.0.6",
+  "version": "0.1.0",
   "description": "Cross-platform Button component for the Design X system.",
   "license": "MIT",
   "author": "Mark Miyashita <negativetwelve@gmail.com>",
