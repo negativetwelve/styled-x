@@ -21,12 +21,12 @@
     "build"
   ],
   "dependencies": {
-    "styled-x-button": "^0.2.1",
-    "styled-x-row": "^0.2.1"
+    "styled-x-button": "0.2.1",
+    "styled-x-primitives": "0.2.1",
+    "styled-x-row": "0.2.1"
   },
   "peerDependencies": {
-    "react": "*",
-    "react-x": "*"
+    "react": "*"
   },
   "scripts": {
     "build": "babel src --out-dir build --ignore \"**/__tests__/**\"",
