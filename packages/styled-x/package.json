@@ -1,28 +1,28 @@
 {
-  "name": "design-x",
+  "name": "styled-x",
   "version": "0.1.0",
   "description": "Cross-platform component design system for React DOM and React Native.",
   "license": "MIT",
   "author": "Mark Miyashita <negativetwelve@gmail.com>",
-  "homepage": "https://github.com/negativetwelve/design-x",
-  "repository": "https://github.com/negativetwelve/design-x/tree/master/packages/design-x",
+  "homepage": "https://github.com/negativetwelve/styled-x",
+  "repository": "https://github.com/negativetwelve/styled-x/tree/master/packages/styled-x",
   "keywords": [
     "components",
     "cross-platform",
-    "design-x",
+    "styled-x",
     "platform",
     "react",
     "react-native",
     "react-x",
     "react-x-component"
   ],
-  "main": "build/design-x",
+  "main": "build/styled-x",
   "files": [
     "build"
   ],
   "dependencies": {
-    "design-x-button": "^0.1.0",
-    "design-x-row": "^0.1.0"
+    "styled-x-button": "^0.1.0",
+    "styled-x-row": "^0.1.0"
   },
   "peerDependencies": {
     "react": "*",
