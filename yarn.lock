@@ -5799,15 +5799,15 @@ react-transform-hmr@^1.0.4:
     global "^4.3.0"
     react-proxy "^1.1.7"
 
-react-x-clipboard@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/react-x-clipboard/-/react-x-clipboard-2.0.0.tgz#cf6a4d6abe9bac0447eea5b6ec9c06cdbfd396dc"
+react-x-clipboard@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/react-x-clipboard/-/react-x-clipboard-2.1.0.tgz#48b877e2489441d804a393104637c12ac2e97ef4"
   dependencies:
     copy-to-clipboard "^3.0.8"
 
-react-x-keychain@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/react-x-keychain/-/react-x-keychain-2.0.0.tgz#4ad79393b4d346d36fdc89f95be6337b28dbce90"
+react-x-keychain@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/react-x-keychain/-/react-x-keychain-2.1.0.tgz#5c00b83ee9ee67d7796a29c76dbf9b4a523c88be"
   dependencies:
     cookies-js "^1.2.3"
     invariant "^2.2.2"
@@ -5815,42 +5815,48 @@ react-x-keychain@^2.0.0:
     lodash.pick "^4.4.0"
     react-native-keychain "2.0.0-rc"
 
-react-x-primitives@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/react-x-primitives/-/react-x-primitives-2.0.0.tgz#a3f731a4665861174f2a288fa0f0e4af06bd94ef"
+react-x-primitives@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/react-x-primitives/-/react-x-primitives-2.1.0.tgz#2ed72fc2bfb04e093d99905b0d7ac63142fc7609"
   dependencies:
     react-primitives "0.5.0"
 
-react-x-render@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/react-x-render/-/react-x-render-2.0.0.tgz#7b3db9c831fb0149f240b43ea99ff1055eec9897"
+react-x-render@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/react-x-render/-/react-x-render-2.1.0.tgz#5e5e4889d73c60d2589b49551934570ca6c2c911"
   dependencies:
     prop-types "^15.5.10"
 
-react-x-svg@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/react-x-svg/-/react-x-svg-2.0.0.tgz#9828fcd278630d641b5eabcd6e513a85d440f3f5"
+react-x-svg@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/react-x-svg/-/react-x-svg-2.1.0.tgz#7d8c51abb34ea0b3092d10794ea252faa4ffe3b0"
   dependencies:
     react-native-svg "6.2.2"
     react-primitives-svg "0.0.3"
 
-react-x-switch@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/react-x-switch/-/react-x-switch-2.0.0.tgz#e34cc45d6035f8e97a9c07a01047785092b51b47"
+react-x-switch@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/react-x-switch/-/react-x-switch-2.1.0.tgz#776fbaa42f93043fc9b3866961aa99c53df910f2"
   dependencies:
     prop-types "^15.5.10"
     react-ios-switch "^0.1.19"
 
-react-x@2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/react-x/-/react-x-2.0.0.tgz#8ca7b8dbd218fc646efa79d30d185cf6860b2ebd"
+react-x-text-input@2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/react-x-text-input/-/react-x-text-input-2.1.0.tgz#6ad8191a77268b01f77102b86a55ebdee3d41573"
   dependencies:
-    react-x-clipboard "^2.0.0"
-    react-x-keychain "^2.0.0"
-    react-x-primitives "^2.0.0"
-    react-x-render "^2.0.0"
-    react-x-svg "^2.0.0"
-    react-x-switch "^2.0.0"
+    prop-types "^15.5.10"
+
+react-x@2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/react-x/-/react-x-2.1.0.tgz#b424d0fdec6790a895f0daab349435a524d02c11"
+  dependencies:
+    react-x-clipboard "^2.1.0"
+    react-x-keychain "^2.1.0"
+    react-x-primitives "^2.1.0"
+    react-x-render "^2.1.0"
+    react-x-svg "^2.1.0"
+    react-x-switch "^2.1.0"
 
 react@16.2.0:
   version "16.2.0"
