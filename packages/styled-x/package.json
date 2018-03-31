@@ -21,7 +21,6 @@
     "build"
   ],
   "dependencies": {
-    "react-x": "2.1.0",
     "styled-x-button": "0.4.1",
     "styled-x-primitives": "0.4.1",
     "styled-x-row": "0.4.1",
@@ -29,6 +28,9 @@
   },
   "peerDependencies": {
     "react": "*"
+  },
+  "devDependencies": {
+    "react-x": "2.1.0"
   },
   "scripts": {
     "build": "babel src --out-dir build --ignore \"**/__tests__/**\"",
