@@ -24,7 +24,8 @@
     "react-x": "2.1.0",
     "styled-x-button": "0.4.0",
     "styled-x-primitives": "0.4.0",
-    "styled-x-row": "0.4.0"
+    "styled-x-row": "0.4.0",
+    "styled-x-text-input": "0.4.0"
   },
   "peerDependencies": {
     "react": "*"
