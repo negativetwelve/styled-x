@@ -28,6 +28,9 @@
   "peerDependencies": {
     "react": "*"
   },
+  "devDependencies": {
+    "react-x": "2.0.0"
+  },
   "scripts": {
     "build": "babel src --out-dir build --ignore \"**/__tests__/**\"",
     "clean": "rimraf build",
