@@ -2,7 +2,7 @@
 import React from 'react';
 import Primitives from '../Primitives';
 
-const Title = Primitives.Text`
+const Title = Primitives.Text.extend`
   font-size: 16px;
   text-align: center;
 `;
