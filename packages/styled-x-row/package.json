@@ -1,6 +1,6 @@
 {
   "name": "styled-x-row",
-  "version": "0.5.1",
+  "version": "0.5.2",
   "description": "Cross-platform Row component for the styled-x system.",
   "license": "MIT",
   "author": "Mark Miyashita <negativetwelve@gmail.com>",
@@ -23,7 +23,7 @@
   "dependencies": {
     "prop-types": "15.6.1",
     "react": "16.2.0",
-    "styled-x-primitives": "0.5.1"
+    "styled-x-primitives": "0.5.2"
   },
   "scripts": {
     "build": "babel src --out-dir build --ignore \"**/__tests__/**\"",
