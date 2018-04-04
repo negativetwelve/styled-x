@@ -1,6 +1,6 @@
 {
   "name": "styled-x-button",
-  "version": "0.5.2",
+  "version": "0.6.0",
   "description": "Cross-platform Button component for the Design X system.",
   "license": "MIT",
   "author": "Mark Miyashita <negativetwelve@gmail.com>",
@@ -23,7 +23,7 @@
   "dependencies": {
     "prop-types": "15.6.1",
     "react": "16.2.0",
-    "styled-x-primitives": "0.5.2"
+    "styled-x-primitives": "0.6.0"
   },
   "scripts": {
     "build": "babel src --out-dir build --ignore \"**/__tests__/**\"",
