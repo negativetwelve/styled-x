@@ -1,1 +1,1 @@
-import './TestInput.test';
+import './TextInput.test';
