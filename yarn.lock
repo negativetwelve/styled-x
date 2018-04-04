@@ -5841,9 +5841,9 @@ react-x-switch@2.1.1:
     prop-types "^15.5.10"
     react-ios-switch "^0.1.19"
 
-react-x-text-input@2.1.1:
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/react-x-text-input/-/react-x-text-input-2.1.1.tgz#2e85d786bd44abb107b63d369849657c6c242366"
+react-x-text-input@2.1.2:
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/react-x-text-input/-/react-x-text-input-2.1.2.tgz#b2d683fb298673753b6903817193ae65784e13d2"
   dependencies:
     prop-types "^15.5.10"
 
