@@ -10,6 +10,7 @@ const Square = Primitives.View.extend`
 const SquareWithProps = Primitives.View.extend`
   height: ${props => props.size}px;
   width: ${props => props.size}px;
+  borderRadius: ${props => props.borderRadius}px;
 `;
 
 const Title = Primitives.Text.extend`
@@ -19,6 +20,7 @@ const Title = Primitives.Text.extend`
 
 const TitleWithProps = Primitives.Text.extend`
   font-size: ${props => props.size}px;
+  color: ${props => props.color};
 `;
 
 /* eslint-disable no-undef */
@@ -29,7 +31,7 @@ describe('Primitives`', () => {
     });
 
     describe('SquareWithProps', () => {
-      itRenders(() => <SquareWithProps size={20} />);
+      itRenders(() => <SquareWithProps size={20} borderRadius={5} />);
     });
   });
 
@@ -39,7 +41,7 @@ describe('Primitives`', () => {
     });
 
     describe('TitleWithProps', () => {
-      itRenders(() => <TitleWithProps size={20} />);
+      itRenders(() => <TitleWithProps size={20} color={'#FFFFFF'} />);
     });
   });
 });
