@@ -19,10 +19,13 @@ import styled from 'styled-components/primitives';
 const createComponent = (Component) => {
   const propTypes = Component.propTypes || {};
   const keys = Object.keys(propTypes);
-  const filter = props => <Component {...pick(props, keys)} />;
+  const withFilter = props => <Component {...pick(props, keys)} />;
+
+  // Inject a displayName for React DevTools.
+  withFilter.displayName = `StyledX(${Component.displayName})`;
 
   // NOTE(mark): We passing empty styles to the styled component so we can .extend it.
-  return styled(filter)``;
+  return styled(withFilter)``;
 };
 
 export default createComponent;
