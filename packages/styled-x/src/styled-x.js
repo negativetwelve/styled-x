@@ -15,4 +15,6 @@ Styled.TextInput = TextInput;
 Styled.Touchable = Touchable;
 Styled.View = View;
 
-export default Styled;
+// This allows us to import either the entire Styled object or individual
+// imports such as `import {Button} from 'styled-x';`.
+module.exports = Styled;

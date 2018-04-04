@@ -8,5 +8,6 @@ Primitives.Text = createComponent(Primitives.Text);
 Primitives.Touchable = createComponent(Primitives.Touchable);
 Primitives.View = createComponent(Primitives.View);
 
-// This allows us to import via `import {View} from 'styled-x-primitives'`.
+// This allows us to import the entire Primitives object or specific
+// components via `import {View} from 'styled-x-primitives';`.
 module.exports = Primitives;
