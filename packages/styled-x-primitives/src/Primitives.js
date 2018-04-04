@@ -1,13 +1,12 @@
 // Libraries
-import Primitives from 'styled-components/primitives';
-
-// Define a new function which we can assign our own styles to.
-const Styled = (tag) => Primitives(tag);
+import Primitives from 'react-primitives';
+import createComponent from 'styled-x-create-component';
 
 // Inject Primitives to Styled that we can use `.extend` on.
-Styled.Image = Primitives.Image``;
-Styled.Text = Primitives.Text``;
-Styled.Touchable = Primitives.Touchable``;
-Styled.View = Primitives.View``;
+Primitives.Image = createComponent(Primitives.Image);
+Primitives.Text = createComponent(Primitives.Text);
+Primitives.Touchable = createComponent(Primitives.Touchable);
+Primitives.View = createComponent(Primitives.View);
 
-export default Styled;
+// This allows us to import via `import {View} from 'styled-x-primitives'`.
+module.exports = Primitives;

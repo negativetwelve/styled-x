@@ -1,8 +1,5 @@
 // Libraries
-import Styled from 'styled-x-primitives';
-import ReactXTextInput from 'react-x-text-input';
+import createComponent from 'styled-x-create-component';
+import TextInput from 'react-x-text-input';
 
-const TextInput = Styled(ReactXTextInput)`
-`;
-
-export default TextInput;
+export default createComponent(TextInput);
