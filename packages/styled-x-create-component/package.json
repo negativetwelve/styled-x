@@ -1,11 +1,11 @@
 {
-  "name": "styled-x-primitives",
+  "name": "styled-x-create-component",
   "version": "0.5.2",
-  "description": "Cross-platform Image, Text, and View components for the styled-x system.",
+  "description": "Create cross-platform styled-components.",
   "license": "MIT",
   "author": "Mark Miyashita <negativetwelve@gmail.com>",
   "homepage": "https://github.com/negativetwelve/styled-x",
-  "repository": "https://github.com/negativetwelve/styled-x/tree/master/packages/styled-x-primitives",
+  "repository": "https://github.com/negativetwelve/styled-x/tree/master/packages/styled-x-create-component",
   "keywords": [
     "component",
     "cross-platform",
@@ -13,16 +13,16 @@
     "react",
     "react-native",
     "react-x",
-    "react-x-component",
-    "row"
+    "react-x-component"
   ],
-  "main": "build/Primitives",
+  "main": "build/createComponent",
   "files": [
     "build"
   ],
   "dependencies": {
-    "react-primitives": "0.5.0",
-    "styled-x-create-component": "0.5.2"
+    "lodash.pick": "^4.4.0",
+    "react": "^16.2.0",
+    "styled-components": "3.2.1"
   },
   "scripts": {
     "build": "babel src --out-dir build --ignore \"**/__tests__/**\"",
