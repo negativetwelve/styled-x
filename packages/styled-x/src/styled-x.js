@@ -1,5 +1,7 @@
-// Components
+// Libraries
 import styled from 'styled-components/primitives';
+
+// Components
 import Button from 'styled-x-button';
 import {Image, Text, Touchable, View} from 'styled-x-primitives';
 import Row from 'styled-x-row';

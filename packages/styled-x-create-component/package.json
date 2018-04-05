@@ -21,7 +21,7 @@
   ],
   "dependencies": {
     "lodash.pick": "^4.4.0",
-    "react": "^16.2.0",
+    "react": ">=16.0.0",
     "styled-components": "3.2.1"
   },
   "scripts": {

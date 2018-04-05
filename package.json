@@ -14,13 +14,10 @@
     "eslint-plugin-jest": "^21.0.2",
     "husky": "^0.14.3",
     "jest": "21.2.1",
-    "jest-preset-react-x-dom": "2.1.1",
-    "jest-preset-react-x-native": "2.1.1",
+    "jest-preset-react-x-dom": "2.2.0",
+    "jest-preset-react-x-native": "2.2.0",
     "lerna": "^2.0.0",
     "lint-staged": "^4.0.3",
-    "react": "16.2.0",
-    "react-dom": "16.2.0",
-    "react-native": "0.53.3",
     "rimraf": "^2.6.1"
   },
   "babel": {
