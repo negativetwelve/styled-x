@@ -22,7 +22,7 @@
   "dependencies": {
     "prop-types": ">=15.0.0",
     "react": ">=16.0.0",
-    "react-x-text-input": "2.2.0",
+    "react-x-text-input": "2.2.1",
     "styled-x-create-component": "0.7.0"
   },
   "scripts": {

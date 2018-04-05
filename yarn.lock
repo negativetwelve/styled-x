@@ -4514,18 +4514,18 @@ jest-plugins@^2.8.2:
   version "2.8.2"
   resolved "https://registry.yarnpkg.com/jest-plugins/-/jest-plugins-2.8.2.tgz#24d4655e0b26a5877ee640319eb531d176cc4081"
 
-jest-preset-react-x-dom@2.2.0:
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/jest-preset-react-x-dom/-/jest-preset-react-x-dom-2.2.0.tgz#1f1234cddc991d54414602e7dd5047bd9e38a2ac"
+jest-preset-react-x-dom@2.2.1:
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/jest-preset-react-x-dom/-/jest-preset-react-x-dom-2.2.1.tgz#02ba72816fe3574cc0b8c59a124c57cb72247e49"
   dependencies:
     identity-obj-proxy "^3.0.0"
     jest-plugins "^2.8.2"
     jest-plugins-react "^2.8.2"
     jest-plugins-recommended "^2.8.2"
 
-jest-preset-react-x-native@2.2.0:
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/jest-preset-react-x-native/-/jest-preset-react-x-native-2.2.0.tgz#b08f36754700cf3e2c368b405bc0135b46e1c82b"
+jest-preset-react-x-native@2.2.1:
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/jest-preset-react-x-native/-/jest-preset-react-x-native-2.2.1.tgz#686b4fb848ac2994c447a78729181e6f267e2fc5"
   dependencies:
     jest-plugins "^2.8.2"
     jest-plugins-react "^2.8.2"
@@ -6233,9 +6233,9 @@ react-is@^16.3.1:
   version "16.3.1"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.3.1.tgz#ee66e6d8283224a83b3030e110056798488359ba"
 
-react-native-web@>=0.5.0:
-  version "0.5.4"
-  resolved "https://registry.yarnpkg.com/react-native-web/-/react-native-web-0.5.4.tgz#a1146548e95df241f3eba9666745ea8948404e78"
+react-native-web@0.4.0:
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/react-native-web/-/react-native-web-0.4.0.tgz#5c334fb6eba1623886e162d73174b3cc37826e63"
   dependencies:
     array-find-index "^1.0.2"
     create-react-class "^15.6.2"
@@ -6382,23 +6382,23 @@ react-transform-hmr@^1.0.4:
     global "^4.3.0"
     react-proxy "^1.1.7"
 
-react-x-primitives@2.2.0:
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/react-x-primitives/-/react-x-primitives-2.2.0.tgz#aede855c949080c18bbe44dca28eb6db5a157d4b"
+react-x-primitives@2.2.1:
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/react-x-primitives/-/react-x-primitives-2.2.1.tgz#9c7c49ff3d1995fb5eafcf4f0b4c7d43afc1f6ea"
   dependencies:
     react ">=16.0.0"
     react-dom ">=16.0.0"
     react-primitives "0.5.0"
 
-react-x-text-input@2.2.0:
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/react-x-text-input/-/react-x-text-input-2.2.0.tgz#4e1414e95f291f68c5bd6bda146cfe6db6e480e4"
+react-x-text-input@2.2.1:
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/react-x-text-input/-/react-x-text-input-2.2.1.tgz#b1f2a03c59d794fc01a9410109b13e096dda5183"
   dependencies:
     prop-types ">=15.0.0"
     react ">=16.0.0"
     react-dom ">=16.0.0"
     react-native ">=0.50.0"
-    react-native-web ">=0.5.0"
+    react-native-web "0.4.0"
 
 react@>=16.0.0:
   version "16.3.1"
