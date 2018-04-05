@@ -20,9 +20,9 @@
     "build"
   ],
   "dependencies": {
-    "prop-types": "15.6.1",
-    "react": "16.2.0",
-    "react-x-text-input": "2.1.2",
+    "prop-types": ">=15.0.0",
+    "react": ">=16.0.0",
+    "react-x-text-input": "2.2.0",
     "styled-x-create-component": "0.6.2"
   },
   "scripts": {
