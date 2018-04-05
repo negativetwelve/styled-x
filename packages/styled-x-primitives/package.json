@@ -21,7 +21,7 @@
     "build"
   ],
   "dependencies": {
-    "react-primitives": "0.5.0",
+    "react-x-primitives": "2.2.0",
     "styled-x-create-component": "0.6.2"
   },
   "scripts": {
