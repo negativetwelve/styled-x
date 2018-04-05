@@ -27,6 +27,9 @@
     "styled-x-row": "0.7.0",
     "styled-x-text-input": "0.7.0"
   },
+  "peerDependencies": {
+    "react": "*"
+  },
   "scripts": {
     "build": "babel src --out-dir build --ignore \"**/__tests__/**\"",
     "clean": "rimraf build",

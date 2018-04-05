@@ -20,10 +20,15 @@
     "build"
   ],
   "dependencies": {
-    "prop-types": ">=15.0.0",
-    "react": ">=16.0.0",
-    "react-x-text-input": "2.2.1",
+    "prop-types": "^15.6.1",
+    "react-x-text-input": "2.4.0",
     "styled-x-create-component": "0.7.0"
+  },
+  "peerDependencies": {
+    "react": "*"
+  },
+  "optionalDependencies": {
+    "react-native-web": "^0.3.2"
   },
   "scripts": {
     "build": "babel src --out-dir build --ignore \"**/__tests__/**\"",
