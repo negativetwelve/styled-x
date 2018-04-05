@@ -27,9 +27,6 @@
   "peerDependencies": {
     "react": "*"
   },
-  "optionalDependencies": {
-    "react-native-web": "^0.3.2"
-  },
   "scripts": {
     "build": "babel src --out-dir build --ignore \"**/__tests__/**\"",
     "clean": "rimraf build",
