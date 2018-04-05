@@ -21,7 +21,7 @@
   ],
   "dependencies": {
     "prop-types": "^15.6.1",
-    "react-x-text-input": "2.4.0",
+    "react-x-text-input": "2.5.0",
     "styled-x-create-component": "0.7.0"
   },
   "peerDependencies": {

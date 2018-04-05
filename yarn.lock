@@ -4511,18 +4511,18 @@ jest-plugins@^2.9.0:
   version "2.9.0"
   resolved "https://registry.yarnpkg.com/jest-plugins/-/jest-plugins-2.9.0.tgz#9323583ad9d5eaa321723d7601c16192bfcda7db"
 
-jest-preset-react-x-dom@2.4.0:
-  version "2.4.0"
-  resolved "https://registry.yarnpkg.com/jest-preset-react-x-dom/-/jest-preset-react-x-dom-2.4.0.tgz#226a67e18a6ab62c6385c961f9b0f57e3d7d9456"
+jest-preset-react-x-dom@2.5.0:
+  version "2.5.0"
+  resolved "https://registry.yarnpkg.com/jest-preset-react-x-dom/-/jest-preset-react-x-dom-2.5.0.tgz#0e8dd21d10cafe1fdd1917923f8f4b34334380da"
   dependencies:
     identity-obj-proxy "^3.0.0"
     jest-plugins "^2.9.0"
     jest-plugins-react "^2.9.0"
     jest-plugins-recommended "^2.9.0"
 
-jest-preset-react-x-native@2.4.0:
-  version "2.4.0"
-  resolved "https://registry.yarnpkg.com/jest-preset-react-x-native/-/jest-preset-react-x-native-2.4.0.tgz#7a8a43d3b7eada0f441ab728e0757bb65adff254"
+jest-preset-react-x-native@2.5.0:
+  version "2.5.0"
+  resolved "https://registry.yarnpkg.com/jest-preset-react-x-native/-/jest-preset-react-x-native-2.5.0.tgz#0d4ac68aab56cb2fca3569d15335f2c79e7459d2"
   dependencies:
     jest-plugins "^2.9.0"
     jest-plugins-react "^2.9.0"
@@ -6246,7 +6246,7 @@ react-native-web@^0.3.2:
     react-art "^16.2.0"
     react-timer-mixin "^0.13.3"
 
-react-native@*:
+react-native@^0.54.0:
   version "0.54.4"
   resolved "https://registry.yarnpkg.com/react-native/-/react-native-0.54.4.tgz#19c6c598f6acf04f1c032fe9a1812f0c640fa8b7"
   dependencies:
@@ -6363,18 +6363,15 @@ react-transform-hmr@^1.0.4:
     global "^4.3.0"
     react-proxy "^1.1.7"
 
-react-x-primitives@2.4.0:
-  version "2.4.0"
-  resolved "https://registry.yarnpkg.com/react-x-primitives/-/react-x-primitives-2.4.0.tgz#238545758fb8fcabcb9734ebc6e9ba9a438dd937"
+react-x-primitives@2.5.0:
+  version "2.5.0"
+  resolved "https://registry.yarnpkg.com/react-x-primitives/-/react-x-primitives-2.5.0.tgz#6de91f66e1a006042d9de5d04dd54036c993dff8"
   dependencies:
     react-primitives "0.5.0"
 
-react-x-text-input@2.4.0:
-  version "2.4.0"
-  resolved "https://registry.yarnpkg.com/react-x-text-input/-/react-x-text-input-2.4.0.tgz#187a69478f9f65b810f1810b0a332b142aef388e"
-  optionalDependencies:
-    react-native "*"
-    react-native-web "^0.3.2"
+react-x-text-input@2.5.0:
+  version "2.5.0"
+  resolved "https://registry.yarnpkg.com/react-x-text-input/-/react-x-text-input-2.5.0.tgz#5099c34351408fd92136ca197cf8e2961ce7de26"
 
 react@^16.3.0:
   version "16.3.1"
