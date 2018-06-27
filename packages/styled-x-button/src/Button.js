@@ -1,12 +1,12 @@
 // Libraries
 import React from 'react';
 import PropTypes from 'prop-types';
-import Styled from 'styled-x-primitives';
+import {Touchable} from 'styled-x-primitives';
 
 // --------------------------------------------------
 // Components
 // --------------------------------------------------
-const Button = Styled.Touchable.extend`
+const Button = Touchable.extend`
 `;
 
 // --------------------------------------------------
