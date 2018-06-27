@@ -17,6 +17,11 @@ import styled from 'styled-components/primitives';
  *
  */
 const createComponent = (Component) => {
+  // Do not filter based on propTypes which are stripped in production.
+  if (process.env.NODE_ENV === 'production') {
+    return styled(Component);
+  }
+
   const propTypes = Component.propTypes || {};
   const keys = Object.keys(propTypes);
   const withFilter = props => <Component {...pick(props, keys)} />;
