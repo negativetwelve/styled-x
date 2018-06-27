@@ -19,7 +19,7 @@ import styled from 'styled-components/primitives';
 const createComponent = (Component) => {
   // Do not filter based on propTypes which are stripped in production.
   if (process.env.NODE_ENV === 'production') {
-    return styled(Component);
+    return styled(Component)``;
   }
 
   const propTypes = Component.propTypes || {};
