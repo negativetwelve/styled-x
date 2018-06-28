@@ -1,6 +1,6 @@
 {
   "name": "styled-x",
-  "version": "1.3.0",
+  "version": "1.3.1",
   "description": "Cross-platform component design system for React DOM and React Native.",
   "license": "MIT",
   "author": "Mark Miyashita <negativetwelve@gmail.com>",
@@ -22,10 +22,10 @@
   ],
   "dependencies": {
     "styled-components": "3.2.1",
-    "styled-x-button": "1.3.0",
-    "styled-x-primitives": "1.3.0",
-    "styled-x-row": "1.3.0",
-    "styled-x-text-input": "1.3.0"
+    "styled-x-button": "1.3.1",
+    "styled-x-primitives": "1.3.1",
+    "styled-x-row": "1.3.1",
+    "styled-x-text-input": "1.3.1"
   },
   "peerDependencies": {
     "react": "*"
