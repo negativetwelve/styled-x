@@ -6,7 +6,9 @@ import createComponent from 'styled-x-create-component';
 const Primitives = {
   Image: createComponent(Image),
   Text: createComponent(Text),
-  Touchable: createComponent(Touchable),
+  Touchable: createComponent(Touchable, {
+    propTypes: {...Touchable.propTypes, ...View.propTypes},
+  }),
   View: createComponent(View),
 };
 
