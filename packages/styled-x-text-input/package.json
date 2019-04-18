@@ -1,6 +1,6 @@
 {
   "name": "styled-x-text-input",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "description": "Cross-platform TextInput component for the styled-x system.",
   "license": "MIT",
   "author": "Mark Miyashita <negativetwelve@gmail.com>",
@@ -22,7 +22,7 @@
   "dependencies": {
     "prop-types": "^15.6.1",
     "react-x-text-input": "2.6.0",
-    "styled-x-create-component": "1.4.0"
+    "styled-x-create-component": "1.5.0"
   },
   "peerDependencies": {
     "react": "*"
