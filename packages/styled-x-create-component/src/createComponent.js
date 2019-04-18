@@ -1,6 +1,4 @@
 // Libraries
-import React from 'react';
-import pick from 'lodash.pick';
 import styled from 'styled-components/primitives';
 
 /**
@@ -16,21 +14,9 @@ import styled from 'styled-components/primitives';
  *   `;
  *
  */
-const createComponent = (Component, options = {}) => {
-  // Do not filter based on propTypes which are stripped in production.
-  if (process.env.NODE_ENV === 'production') {
-    return styled(Component)``;
-  }
-
-  const propTypes = options.propTypes || Component.propTypes || {};
-  const keys = Object.keys(propTypes);
-  const withFilter = props => <Component {...pick(props, keys)} />;
-
-  // Inject a displayName for React DevTools.
-  withFilter.displayName = `StyledX(${Component.displayName})`;
-
+const createComponent = (Component) => {
   // NOTE(mark): We passing empty styles to the styled component so we can .extend it.
-  return styled(withFilter)``;
+  return styled(Component)``;
 };
 
 export default createComponent;
