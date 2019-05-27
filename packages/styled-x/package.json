@@ -1,6 +1,6 @@
 {
   "name": "styled-x",
-  "version": "2.0.0-beta.1",
+  "version": "2.0.0-beta.2",
   "description": "Cross-platform component design system for React DOM and React Native.",
   "license": "MIT",
   "author": "Mark Miyashita <negativetwelve@gmail.com>",
@@ -21,8 +21,8 @@
     "build"
   ],
   "dependencies": {
-    "styled-x-create-component": "2.0.0-beta.1",
-    "styled-x-primitives": "2.0.0-beta.1"
+    "styled-x-create-component": "2.0.0-beta.2",
+    "styled-x-primitives": "2.0.0-beta.2"
   },
   "peerDependencies": {
     "react": "*"
