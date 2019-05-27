@@ -21,8 +21,7 @@
     "build"
   ],
   "dependencies": {
-    "react-primitives": "0.8.0",
-    "styled-components": "4.2.0",
+    "styled-x-create-component": "2.0.0-beta.1",
     "styled-x-primitives": "2.0.0-beta.1"
   },
   "peerDependencies": {
