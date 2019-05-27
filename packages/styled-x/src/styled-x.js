@@ -1,10 +1,10 @@
 // Libraries
-import styled from 'styled-components/primitives';
+import createComponent from 'styled-x-create-component';
 
 // Components
 import {Image, Text, Touchable, View} from 'styled-x-primitives';
 
-const Styled = (tag) => styled(tag);
+const Styled = (Component) => createComponent(Component);
 
 Styled.Image = Image;
 Styled.Text = Text;
