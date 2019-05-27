@@ -3,20 +3,17 @@ import styled from 'styled-components/primitives';
 
 /**
  * Decorates a component and applies `styled` to it. Returns a new component
- * that can be `.extend`ed.
+ * that can be extended.
  *
  * Ex:
  *
  *   const Button = createComponent(Touchable);
- *   const CustomButton = Button.extend`
+ *   const CustomButton = Styled(Button)`
  *     height: 60px;
  *     width: 160px;
  *   `;
  *
  */
-const createComponent = (Component) => {
-  // NOTE(mark): We passing empty styles to the styled component so we can .extend it.
-  return styled(Component)``;
-};
+const createComponent = (Component) => styled(Component);
 
 export default createComponent;

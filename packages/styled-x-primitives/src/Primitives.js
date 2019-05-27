@@ -2,7 +2,6 @@
 import {Image, Text, Touchable, View} from 'react-x-primitives';
 import createComponent from 'styled-x-create-component';
 
-// Inject Primitives to Styled that we can use `.extend` on.
 const Primitives = {
   Image: createComponent(Image),
   Text: createComponent(Text),
