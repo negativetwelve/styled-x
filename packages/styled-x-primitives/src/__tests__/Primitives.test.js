@@ -2,23 +2,23 @@
 import React from 'react';
 import Primitives from '../Primitives';
 
-const Square = Primitives.View.extend`
+const Square = Primitives.View`
   height: 20px;
   width: 20px;
 `;
 
-const SquareWithProps = Primitives.View.extend`
+const SquareWithProps = Primitives.View`
   height: ${props => props.size}px;
   width: ${props => props.size}px;
   borderRadius: ${props => props.borderRadius}px;
 `;
 
-const Title = Primitives.Text.extend`
+const Title = Primitives.Text`
   font-size: 16px;
   text-align: center;
 `;
 
-const TitleWithProps = Primitives.Text.extend`
+const TitleWithProps = Primitives.Text`
   font-size: ${props => props.size}px;
   color: ${props => props.color};
 `;

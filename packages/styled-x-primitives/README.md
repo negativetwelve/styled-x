@@ -17,9 +17,9 @@ yarn add styled-x-primitives
 ## Usage
 
 ```javascript
-import {Text} from 'styled-x-primitives';
+import Styled from 'styled-x-primitives';
 
-const Title = Text.extend`
+const Title = Styled.Text`
   font-size: 16px;
   text-align: center;
 `;
