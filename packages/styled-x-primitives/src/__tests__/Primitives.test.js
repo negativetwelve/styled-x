@@ -24,7 +24,7 @@ const TitleWithProps = Primitives.Text`
 `;
 
 /* eslint-disable no-undef */
-describe('Primitives`', () => {
+describe('Primitives', () => {
   describe('View', () => {
     describe('Square', () => {
       itRenders(() => <Square />);

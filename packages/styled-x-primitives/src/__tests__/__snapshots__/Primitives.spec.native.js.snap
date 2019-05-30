@@ -1,13 +1,13 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Primitives\` Text Title renders snapshot 1`] = `
+exports[`Primitives Text Title renders snapshot 1`] = `
 <div
   className="css-text-901oao r-fontSize-ubezar r-textAlign-q4m81j"
   dir="auto"
 />
 `;
 
-exports[`Primitives\` Text TitleWithProps renders snapshot 1`] = `
+exports[`Primitives Text TitleWithProps renders snapshot 1`] = `
 <div
   className="css-text-901oao r-color-jwli3a r-fontSize-adyw6z"
   color="#FFFFFF"
@@ -16,13 +16,13 @@ exports[`Primitives\` Text TitleWithProps renders snapshot 1`] = `
 />
 `;
 
-exports[`Primitives\` View Square renders snapshot 1`] = `
+exports[`Primitives View Square renders snapshot 1`] = `
 <div
   className="css-view-1dbjc4n r-height-z80fyv r-width-19wmn03"
 />
 `;
 
-exports[`Primitives\` View SquareWithProps renders snapshot 1`] = `
+exports[`Primitives View SquareWithProps renders snapshot 1`] = `
 <div
   className="css-view-1dbjc4n r-borderRadius-1f0042m r-height-z80fyv r-width-19wmn03"
 />
