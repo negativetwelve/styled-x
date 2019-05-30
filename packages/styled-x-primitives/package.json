@@ -1,6 +1,6 @@
 {
   "name": "styled-x-primitives",
-  "version": "2.0.0-beta.2",
+  "version": "2.0.0",
   "description": "Cross-platform Image, Text, and View components for the styled-x system.",
   "license": "MIT",
   "author": "Mark Miyashita <negativetwelve@gmail.com>",
@@ -22,7 +22,7 @@
   ],
   "dependencies": {
     "react-x-primitives": "3.0.0",
-    "styled-x-create-component": "2.0.0-beta.2"
+    "styled-x-create-component": "2.0.0"
   },
   "scripts": {
     "build": "babel src --out-dir build --ignore \"**/__tests__/**\"",
